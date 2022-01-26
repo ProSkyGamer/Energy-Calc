@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1123</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Плата за электроприборы</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#3A45D7;</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>40</width>
+    <height>40</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="type">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>140</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 19px;
+line-height: 24px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Кофеварка</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Посудомойка</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="firm">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>140</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 19px;
+line-height: 24px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Vitek</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kitfort</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="model">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>140</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 19px;
+line-height: 24px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>VT 1506 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1529</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1502 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-508</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1519 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1514 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1512</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1509</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1504</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1513 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1518 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1503 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1527</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1511 BK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VT-1524 GD</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="choose">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>140</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>В день</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>В неделю</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>В месяц</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="text">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>140</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string> часов</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="plata">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>140</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="minimum">
+     <double>2.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>3.040000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>140</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+
+background: #3A45D7;
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>руб. за кВт/ч</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculate">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>350</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #2A89A6;
+border-radius: 15px;
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 19px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="hours">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>140</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #3A45D7;
+;
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 28px;</string>
+    </property>
+    <property name="maximum">
+     <double>24.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="next">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>350</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #4C79D2;;
+border-radius: 15px;
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 19px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Далее</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="prev">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>350</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #4C79D2;;
+border-radius: 15px;
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 19px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="razrab">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>140</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 14px;
+color:#f7f7f7;</string>
+    </property>
+    <property name="text">
+     <string>Режим разработчика</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="AFrameMenu">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-40</y>
+      <width>221</width>
+      <height>961</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgba(76,121,210,0.5);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="menu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>221</width>
+       <height>491</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settings">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="prilozh">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="table">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>31</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settings1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>480</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+background:#4C79D2;
+color:#f7f7f7;</string>
+     </property>
+     <property name="text">
+      <string>Настройки</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="table1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>160</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color:#f7f7f7;
+background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string>Показать все приборы</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="prilozh1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+background:#4C79D2;
+color:#f7f7f7;</string>
+     </property>
+     <property name="text">
+      <string>Показать приложение</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menu1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="info1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>330</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color:#f7f7f7;
+background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string>Информация о приборе</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="info">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>330</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>31</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="AFrameTable">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>961</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 52.66%;
+right: 3.54%;
+top: 31.48%;
+bottom: 6.11%;
+
+border-radius: 25px;
+background:rgba(76,121,210,0.5);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTableWidget" name="tableData">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>691</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>691</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+background: #4C79D2;;
+
+color:#00F5FF;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 11px;
+line-height: 24px;</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Тип прибора</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Фирма прибора</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Модель прибора</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Энергопотребление</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QComboBox" name="comboFind">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>40</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color:#f7f7f7;
+background:#4C79D2;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Тип прибора</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Фирма прибора</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Модель прибора</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Энергопотрбление</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="showFind">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>40</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color:#f7f7f7;
+background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string>Показать</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="deleteData">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>80</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color:#f7f7f7;
+background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineFind">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addData">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>40</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+left: 4.32%;
+right: 87.94%;
+top: 26.44%;
+bottom: 71.34%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color:#f7f7f7;
+background:#4C79D2;</string>
+     </property>
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+    <zorder>comboFind</zorder>
+    <zorder>showFind</zorder>
+    <zorder>deleteData</zorder>
+    <zorder>lineFind</zorder>
+    <zorder>tableData</zorder>
+    <zorder>addData</zorder>
+   </widget>
+   <widget class="QLabel" name="text4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #0089FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Вид прибора:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_type">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>120</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #00F5FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Тут вид</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text5">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>190</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #0089FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Фирма прибора:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_firm">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>190</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #00F5FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Тут фирма</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text6">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #0089FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Модель прибора:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_model">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>290</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #00F5FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Тут модель</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text7">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>360</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #0089FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Мощность:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_mosh">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>360</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #00F5FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>Тут мощность</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text8">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>0</y>
+      <width>901</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+
+
+background: #3A45D7;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>          Тут указана информация о текущем выбранном приборе</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_photo">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>120</y>
+      <width>341</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0.89%;
+right: 87.97%;
+top: 11.67%;
+bottom: 83.98%;
+border-radius:25px;
+
+background: #00F5FF;
+
+color:#f7f7f7;
+font-family: Mulish;
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 24px;</string>
+    </property>
+    <property name="text">
+     <string>*фото*</string>
+    </property>
+   </widget>
+   <zorder>AFrameTable</zorder>
+   <zorder>AFrameMenu</zorder>
+   <zorder>calculate</zorder>
+   <zorder>firm</zorder>
+   <zorder>model</zorder>
+   <zorder>next</zorder>
+   <zorder>prev</zorder>
+   <zorder>razrab</zorder>
+   <zorder>text3</zorder>
+   <zorder>type</zorder>
+   <zorder>hours</zorder>
+   <zorder>text</zorder>
+   <zorder>choose</zorder>
+   <zorder>plata</zorder>
+   <zorder>text2</zorder>
+   <zorder>text_type</zorder>
+   <zorder>text5</zorder>
+   <zorder>text_firm</zorder>
+   <zorder>text6</zorder>
+   <zorder>text_model</zorder>
+   <zorder>text7</zorder>
+   <zorder>text_mosh</zorder>
+   <zorder>text8</zorder>
+   <zorder>text_photo</zorder>
+   <zorder>text4</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

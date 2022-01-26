@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Плата за ЭЛЕКТРИЧЕСТВО", "Плата за ЭЛЕКТРИЧЕСТВО\Плата за ЭЛЕКТРИЧЕСТВО.pyproj", "{F8097F4E-9E1C-4682-A087-AD6A7826D89D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8097F4E-9E1C-4682-A087-AD6A7826D89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8097F4E-9E1C-4682-A087-AD6A7826D89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F9DFE45-4AE7-45DB-A847-595F0CFAF94D}
+	EndGlobalSection
+EndGlobal
